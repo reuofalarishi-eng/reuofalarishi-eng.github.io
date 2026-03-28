@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reuofs Resume</title>
+    <title>Reuof's Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#home">My Resume</a>
+      <a class="navbar-brand" href="#home">Reuof's Resume</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -49,8 +49,7 @@
     <section id="AboutMe">
         <h2>About Me</h2>
         <p>
-            I am a student at University of Jeddah. 
-            My goal is to become a professional web developer.
+            I am a student at the University of Jeddah. I aspire to become a professional Software Engineer and develop a lot of projects, games, even websites! I'm passionate and I love to learn something new everyday. my goal after graduating is to get a job at a big technology company like microsoft.
         </p>
     </section>
 
@@ -58,6 +57,22 @@
         <h2>Education</h2>
         <p>Bachelor of Software Engineering</p>
         <p>University of Jeddah (2024 - 2029)</p>
+        <h4>Completed Courses:</h4>
+        <ul>
+            <li>Introduction to Programming</li>
+            <li>Object Oriented Programming</li>
+            <li>Discrete Mathematics</li>
+            <li>Introduction to Databases</li>
+            <li>Digital Logic Design</li>
+            <li>Software Engineering Principles</li>
+        </ul>
+        <h4>Skills:</h4>
+        <ul>
+            <li>C</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Python</li>
+        </ul>
     </section>
 
     <section id="Projects">
@@ -66,29 +81,29 @@
         <div id="C">
             <h3>Library Management System</h3>
             <p>A library management system that allows the user to add and display new members, and new books using C language.</p>
-            <img alt="Project cover" src="C.jpg">
-            <a href="C.pdf">Have a look at the project!</a>
+            <img alt="Project cover" src="./Media/C.jpg">
+            <a href="./Media/C.pdf">Have a look at the project!</a>
         </div>
 
         <div id="DB">
             <h3>Police Station Database</h3>
             <p>A database design to represent a police station where all the information about suspects, officers, evidence, cases, witnesses, and victims are organized and managed to help track criminals and to assign responsibilities to the police faculty.</p>
-            <img alt="One of the project diagrams" src="DB.jpg">
-            <a href="DB.pdf">Have a look at the project!</a>
+            <img alt="One of the project diagrams" src="./Media/DB.jpg">
+            <a href="./Media/DB.pdf">Have a look at the project!</a>
         </div>
 
         <div id="SWE">
             <h3>Smart inventory and warehouse management system with enviromental monitoring</h3>
             <p>An inventory and warehouse management system that allows the costumer to check on their stock conditions remotely and makes an alarm for them when the stock is about to finish or when the conditions for the stock are not met.</p>
-            <img alt="Sequence diagram for multiple scenarios" src="SWE.jpg">
-            <a href="SWE.pdf">Have a look at the project!</a>
+            <img alt="Sequence diagram for multiple scenarios" src="./Media/SWE.jpg">
+            <a href="./Media/SWE.pdf">Have a look at the project!</a>
         </div>
 
         <div id="DL">
             <h3>Combinational Traffic Light Cotroller</h3>
             <p>A traffic light controller design for two crossed roads that gives the main road priority to move to make traffic easier using tinkercad simulator.</p>
-            <img alt="The designed circuit" src="DL.jpg">
-            <a href="DL.pdf">Have a look at the project!</a>
+            <img alt="The designed circuit" src="./Media/DL.jpg">
+            <a href="./Media/DL.pdf">Have a look at the project!</a>
         </div>
 
     </section>
@@ -96,8 +111,25 @@
     <section id="Contact">
         <h2>Contact me!</h2>
         
-        <p>Email: ReuofAlarishi@gmail.com</p>
+        <p>Email: <a href="mailto:reuofalarishi@gmail.com">ReuofAlarishi@gmail.com</a></p>
         <p>Phone: 0556730141</p>
+       
+        <p>Social Media:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/reuof-alarishi-2024b9373?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Linkedin</a></li>
+            <li><a href="https://github.com/reuofalarishi-eng">Github</a></li>
+        </ul>
+        <h3>Or send me a message</h3> 
+        <form>
+            <br> 
+            <label>Your Name:
+            <input type="text" minlength="2" maxlength="15" size="30" placeholder="Enter Your Name Here" pattern="[a-zA-Z]+"> </label> <br> <br>
+            <label>Your Email:
+            <input type="email" minlength="26" maxlength="30" size="30" placeholder="Ex. 2511088@uj.edu.sa"  pattern="[a-zA-Z0-9]+@[a-zA-z]+\.[a-zA-z]{2,4}"> </label> <br> <br>
+            <label>Your message: 
+            <textarea placeholder="Enter Your Message Here" ></textarea></label> <br> <br>
+            <input type="submit">
+        </form> 
     </section>
 
     <footer>
